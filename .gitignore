@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Pytest cache
+.pytest_cache/
+.unittest_cache/
+
+# Local databases and logs
+backend/data/*.json
+!backend/data/.gitkeep
+
+# IDE settings
+.vscode/
+.idea/
